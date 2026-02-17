@@ -39,6 +39,14 @@
     @apply inline-flex items-center justify-center px-4 py-2 text-harlowe-blue font-semibold hover:underline transition-colors duration-200;
   }
 
+  .eyebrow {
+    @apply text-xs md:text-sm uppercase tracking-[0.25em] text-gray-500;
+  }
+
+  .frame-soft {
+    @apply border border-gray-200 rounded-xl bg-white shadow-sm;
+  }
+
   .divider {
     @apply border-t border-gray-200;
   }

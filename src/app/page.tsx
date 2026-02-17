@@ -4,7 +4,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="section-spacing bg-white">
         <div className="container-custom">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center frame-soft p-8 md:p-12">
+            <p className="eyebrow mb-4">Executive Diagnostic Intelligence</p>
             <h1 className="heading-lg mb-6">
               Operational clarity you can use in the next meeting.
             </h1>
@@ -26,23 +27,26 @@ export default function Home() {
       {/* What We Do */}
       <section className="section-spacing bg-harlowe-light">
         <div className="container-custom">
-          <h2 className="heading-md text-center mb-12">What We Do</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg border border-gray-200">
+          <div className="flex items-center justify-between mb-12">
+            <h2 className="heading-md">What We Do</h2>
+            <span className="hidden md:inline-block text-sm text-gray-500">Outside-in. Current-state. Non-prescriptive.</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+            <div className="frame-soft p-8 md:col-span-7">
               <div className="w-12 h-12 bg-harlowe-blue rounded-lg mb-4" />
               <h3 className="heading-sm mb-4">Map Decision Routing</h3>
               <p className="text-gray-600 leading-relaxed">
                 We identify escalation patterns and approval gates. Shows where decisions live, who owns them, and where work stalls.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg border border-gray-200">
+            <div className="frame-soft p-8 md:col-span-5 md:mt-8">
               <div className="w-12 h-12 bg-harlowe-blue rounded-lg mb-4" />
               <h3 className="heading-sm mb-4">Identify Structural Friction</h3>
               <p className="text-gray-600 leading-relaxed">
                 Office to field handoffs. Change handling. Approval workflows. We expose the friction that taxes execution.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg border border-gray-200">
+            <div className="frame-soft p-8 md:col-span-6 md:col-start-4">
               <div className="w-12 h-12 bg-harlowe-blue rounded-lg mb-4" />
               <h3 className="heading-sm mb-4">Surface Second-Order Risks</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -57,15 +61,20 @@ export default function Home() {
       <section className="section-spacing bg-white">
         <div className="container-custom">
           <h2 className="heading-md text-center mb-12">What You Receive</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
             {[
               { title: 'Executive Brief', desc: '1–3 pages of clear language for leadership meetings.' },
               { title: 'Decision Logic Matrix', desc: 'Thresholds, escalation gates, and the judgment behind SOPs.' },
               { title: 'Slide Deck', desc: '10–15 board-ready slides with narrative and patterns.' },
               { title: 'Optional: Audio + Infographic', desc: 'For premium packages.' },
             ].map((item, i) => (
-              <div key={i} className="bg-harlowe-light p-6 rounded-lg">
-                <h3 className="font-semibold mb-2 text-gray-900">{item.title}</h3>
+              <div
+                key={i}
+                className={`bg-harlowe-light p-6 rounded-lg ${
+                  i === 0 || i === 1 ? 'md:col-span-6' : i === 2 ? 'md:col-span-7' : 'md:col-span-5'
+                }`}
+              >
+                <h3 className="font-semibold mb-2 text-gray-900 text-lg">{item.title}</h3>
                 <p className="text-sm text-gray-600">{item.desc}</p>
               </div>
             ))}
@@ -77,8 +86,8 @@ export default function Home() {
       <section className="section-spacing bg-gray-50">
         <div className="container-custom">
           <h2 className="heading-md text-center mb-12">Two Output Modes</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg border border-gray-200">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+            <div className="frame-soft p-8 md:col-span-7">
               <h3 className="heading-sm text-harlowe-blue mb-4">Executive Mode</h3>
               <p className="text-gray-600 mb-4">
                 Leadership-ready clarity. Plain language. Structural patterns. Risks. Leverage points. No tactics.
@@ -98,7 +107,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-8 rounded-lg border border-gray-200">
+            <div className="frame-soft p-8 md:col-span-5 md:mt-10">
               <h3 className="heading-sm text-harlowe-blue mb-4">CFO Mode</h3>
               <p className="text-gray-600 mb-4">
                 Defensible logic. Tagged claims. Explicit limitations. Quantified where possible. Audit trail.
@@ -126,14 +135,19 @@ export default function Home() {
       <section className="section-spacing bg-white">
         <div className="container-custom">
           <h2 className="heading-md text-center mb-12">Who It's For</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
             {[
               { title: 'Operators Drowning in Escalation', desc: 'Too much work stuck in approvals. Unclear decision thresholds. Work moves only with your signature.' },
               { title: 'Growth Exposing Fragility', desc: 'You scale headcount but coordination breaks. The systems that worked don\'t scale.' },
               { title: 'Teams That Execute But Stall on Approvals', desc: 'Individual contributors execute. But decisions back up at review layers.' },
               { title: 'Where SOPs Exist But Judgment Isn\'t Transferable', desc: '"Only Alice knows how this actually works." You need that logic written down.' },
             ].map((item, i) => (
-              <div key={i} className="bg-gray-50 p-8 rounded-lg border border-gray-200">
+              <div
+                key={i}
+                className={`bg-gray-50 p-8 rounded-lg border border-gray-200 ${
+                  i === 0 ? 'md:col-span-7' : i === 1 ? 'md:col-span-5' : i === 2 ? 'md:col-span-5' : 'md:col-span-7'
+                }`}
+              >
                 <h3 className="font-semibold mb-3 text-gray-900">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>

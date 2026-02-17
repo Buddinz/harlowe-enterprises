@@ -81,7 +81,7 @@ export default function Proof() {
               </ul>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-harlowe-blue">
+            <div className="frame-soft p-6 border-l-4 border-harlowe-blue">
               <h3 className="font-semibold mb-3">Output Delivered</h3>
               <ul className="space-y-2 text-gray-600 text-sm">
                 <li className="flex gap-2">
@@ -171,7 +171,7 @@ export default function Proof() {
               </ul>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-harlowe-blue">
+            <div className="frame-soft p-6 border-l-4 border-harlowe-blue">
               <h3 className="font-semibold mb-3">Output Delivered</h3>
               <ul className="space-y-2 text-gray-600 text-sm">
                 <li className="flex gap-2">

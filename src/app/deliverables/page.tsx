@@ -23,8 +23,8 @@ export default function Deliverables() {
         <div className="container-custom">
           <div className="space-y-12">
             {/* Executive Brief */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-              <div>
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+              <div className="md:col-span-7">
                 <h2 className="heading-md mb-4">Executive Brief</h2>
                 <p className="text-gray-600 mb-4">
                   <strong>What it is:</strong> A 1–3 page executive summary written in plain language. No jargon. Suitable for board distribution.
@@ -54,7 +54,7 @@ export default function Deliverables() {
                   </li>
                 </ul>
               </div>
-              <div className="bg-gray-50 p-8 rounded-lg border-2 border-dashed border-gray-300 text-center">
+              <div className="bg-gray-50 p-8 rounded-lg border-2 border-dashed border-gray-300 text-center md:col-span-5 md:mt-6">
                 <div className="text-gray-400 text-sm mb-2">[Sample Document]</div>
                 <p className="text-gray-600 text-sm mb-4">Executive Brief mockup</p>
                 <p className="text-xs text-gray-500">Sample available on request</p>
@@ -62,15 +62,15 @@ export default function Deliverables() {
             </div>
 
             {/* Decision Rights Matrix */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-              <div className="order-2 md:order-1">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+              <div className="order-2 md:order-1 md:col-span-5 md:mt-6">
                 <div className="bg-gray-50 p-8 rounded-lg border-2 border-dashed border-gray-300 text-center">
                   <div className="text-gray-400 text-sm mb-2">[Sample Table]</div>
                   <p className="text-gray-600 text-sm mb-4">Decision Matrix mockup</p>
                   <p className="text-xs text-gray-500">Sample available on request</p>
                 </div>
               </div>
-              <div className="order-1 md:order-2">
+              <div className="order-1 md:order-2 md:col-span-7">
                 <h2 className="heading-md mb-4">Decision Logic Matrix</h2>
                 <p className="text-gray-600 mb-4">
                   <strong>What it is:</strong> A structured table that maps every decision type: thresholds, escalation gates, who decides, when it escalates.
@@ -103,8 +103,8 @@ export default function Deliverables() {
             </div>
 
             {/* Slide Deck */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-              <div>
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+              <div className="md:col-span-7">
                 <h2 className="heading-md mb-4">Slide Deck</h2>
                 <p className="text-gray-600 mb-4">
                   <strong>What it is:</strong> A 10–15 slide presentation ready for board or leadership team review. Polished, professional, board-ready.
@@ -134,7 +134,7 @@ export default function Deliverables() {
                   </li>
                 </ul>
               </div>
-              <div className="bg-gray-50 p-8 rounded-lg border-2 border-dashed border-gray-300 text-center">
+              <div className="bg-gray-50 p-8 rounded-lg border-2 border-dashed border-gray-300 text-center md:col-span-5 md:mt-6">
                 <div className="text-gray-400 text-sm mb-2">[Sample Slides]</div>
                 <p className="text-gray-600 text-sm mb-4">Deck mockup (10–15 slides)</p>
                 <p className="text-xs text-gray-500">Sample available on request</p>
