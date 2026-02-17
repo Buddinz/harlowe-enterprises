@@ -299,10 +299,10 @@ export default function Contact() {
                     Schedule a Call
                   </h3>
                   <a
-                    href="#schedule"
+                    href="https://cal.com/placeholder"
                     className="inline-block px-4 py-3 border-2 border-harlowe-blue text-harlowe-blue font-semibold rounded-lg hover:bg-harlowe-blue hover:text-white transition-colors duration-200"
                   >
-                    15-Min Fit Check
+                    Schedule a 15-min fit check
                   </a>
                   <p className="text-xs text-gray-500 mt-2">
                     Calendar link available after intake.

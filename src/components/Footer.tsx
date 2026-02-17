@@ -15,6 +15,9 @@ export default function Footer() {
             <p className="text-sm text-gray-400">
               Executive Diagnostic Intelligence for organizational clarity.
             </p>
+            <p className="text-xs text-gray-500 mt-3">
+              HARLOWE Enterprises, LLC • Established 2026
+            </p>
           </div>
 
           {/* Quick Links */}

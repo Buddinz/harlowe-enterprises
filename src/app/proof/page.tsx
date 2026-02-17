@@ -13,7 +13,7 @@ export default function Proof() {
         <div className="container-custom max-w-3xl mx-auto text-center">
           <h1 className="heading-lg mb-6">What We Find</h1>
           <p className="text-lg text-gray-600">
-            Sanitized examples of real patterns we've discovered and risks we've surfaced.
+            Sanitized examples of real patterns we've discovered and risks we've surfaced. Additional case studies available on request.
           </p>
         </div>
       </section>
@@ -23,96 +23,6 @@ export default function Proof() {
         <div className="container-custom max-w-3xl mx-auto">
           <div className="mb-4 inline-block px-4 py-1 bg-harlowe-light rounded-full text-sm font-semibold text-harlowe-blue">
             Case Study 1
-          </div>
-          <h2 className="heading-md mb-4">Municipal Operations: Dispatch + Fleet + Procurement</h2>
-
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-semibold mb-3 text-gray-900">Situation</h3>
-              <p className="text-gray-600 mb-3">
-                Regional municipal authority managing dispatch centers, maintenance fleets, and procurement. 120 employees across central office and six field stations. Complaints that response times are slow and repair work stalls in approvals.
-              </p>
-              <p className="text-gray-600">
-                Leadership sensed problems but couldn't articulate where decisions actually live or why escalations were frequent.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-3 text-gray-900">Patterns We Found</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue font-bold">→</span>
-                  <span>Three separate approval chains for different repair categories, but thresholds were not documented. Field supervisors didn't know: "When do I escalate? When do I decide?"</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue font-bold">→</span>
-                  <span>Procurement authority was unclear. Emergencies were routed up to the director by default, not by policy.</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue font-bold">→</span>
-                  <span>Dispatch supervisors and maintenance supervisors had no coordination protocol. Urgent repairs triggered ad-hoc meetings rather than a defined handoff.</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue font-bold">→</span>
-                  <span>One field station manager held decision authority that should have belonged to central operations.</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-3 text-gray-900">Risks Surfaced</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue">◆</span>
-                  <span>Key-person dependency on director for routine decisions. If director unavailable, work stops.</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue">◆</span>
-                  <span>Inconsistent decision-making across stations. Same scenario handled differently at different locations.</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue">◆</span>
-                  <span>Audit trail gaps. No clear record of who authorized what when.</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-harlowe-blue">◆</span>
-                  <span>Slow response to urgent calls because authorization wasn't delegated.</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="frame-soft p-6 border-l-4 border-harlowe-blue">
-              <h3 className="font-semibold mb-3">Output Delivered</h3>
-              <ul className="space-y-2 text-gray-600 text-sm">
-                <li className="flex gap-2">
-                  <span className="font-bold">•</span>
-                  <span><strong>Executive Brief:</strong> Clear narrative of decision flow. Showed why response times were slow (not urgency, not staffing — delegation).</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="font-bold">•</span>
-                  <span><strong>Decision Logic Matrix:</strong> Three separate approval matrices by repair type. Explicit thresholds. Who decides at each level. When escalation happens.</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="font-bold">•</span>
-                  <span><strong>Slide Deck:</strong> Org structure. Decision routes. Risk map. Recommendations (which included new delegation authorities).</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-harlowe-light p-4 rounded italic text-sm text-gray-600">
-              <p>Result: Client implemented three new threshold matrices. Response time to urgent repairs dropped from 6 hours to under 2. Key-person dependency risk documented and addressed with board.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="h-px bg-gray-200" />
-
-      {/* Case Study 2 */}
-      <section className="section-spacing bg-white">
-        <div className="container-custom max-w-3xl mx-auto">
-          <div className="mb-4 inline-block px-4 py-1 bg-harlowe-light rounded-full text-sm font-semibold text-harlowe-blue">
-            Case Study 2
           </div>
           <h2 className="heading-md mb-4">Field Operations: Central Router Bottleneck</h2>
 
@@ -191,6 +101,96 @@ export default function Proof() {
 
             <div className="bg-harlowe-light p-4 rounded italic text-sm text-gray-600">
               <p>Result: Client implemented new decision authorities for regional supervisors. Onboarding time for new drivers dropped 40%. COO freed from routine approvals. Company scaled to 80 drivers without adding office staff.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="h-px bg-gray-200" />
+
+      {/* Case Study 2 */}
+      <section className="section-spacing bg-white">
+        <div className="container-custom max-w-3xl mx-auto">
+          <div className="mb-4 inline-block px-4 py-1 bg-harlowe-light rounded-full text-sm font-semibold text-harlowe-blue">
+            Case Study 2
+          </div>
+          <h2 className="heading-md mb-4">Municipal Operations: Dispatch + Fleet + Procurement</h2>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-semibold mb-3 text-gray-900">Situation</h3>
+              <p className="text-gray-600 mb-3">
+                Regional municipal authority managing dispatch centers, maintenance fleets, and procurement. 120 employees across central office and six field stations. Complaints that response times are slow and repair work stalls in approvals.
+              </p>
+              <p className="text-gray-600">
+                Leadership sensed problems but couldn't articulate where decisions actually live or why escalations were frequent.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-3 text-gray-900">Patterns We Found</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue font-bold">→</span>
+                  <span>Three separate approval chains for different repair categories, but thresholds were not documented. Field supervisors didn't know: "When do I escalate? When do I decide?"</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue font-bold">→</span>
+                  <span>Procurement authority was unclear. Emergencies were routed up to the director by default, not by policy.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue font-bold">→</span>
+                  <span>Dispatch supervisors and maintenance supervisors had no coordination protocol. Urgent repairs triggered ad-hoc meetings rather than a defined handoff.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue font-bold">→</span>
+                  <span>One field station manager held decision authority that should have belonged to central operations.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-3 text-gray-900">Risks Surfaced</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue">◆</span>
+                  <span>Key-person dependency on director for routine decisions. If director unavailable, work stops.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue">◆</span>
+                  <span>Inconsistent decision-making across stations. Same scenario handled differently at different locations.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue">◆</span>
+                  <span>Audit trail gaps. No clear record of who authorized what when.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-harlowe-blue">◆</span>
+                  <span>Slow response to urgent calls because authorization wasn't delegated.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="frame-soft p-6 border-l-4 border-harlowe-blue">
+              <h3 className="font-semibold mb-3">Output Delivered</h3>
+              <ul className="space-y-2 text-gray-600 text-sm">
+                <li className="flex gap-2">
+                  <span className="font-bold">•</span>
+                  <span><strong>Executive Brief:</strong> Clear narrative of decision flow. Showed why response times were slow (not urgency, not staffing — delegation).</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="font-bold">•</span>
+                  <span><strong>Decision Logic Matrix:</strong> Three separate approval matrices by repair type. Explicit thresholds. Who decides at each level. When escalation happens.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="font-bold">•</span>
+                  <span><strong>Slide Deck:</strong> Org structure. Decision routes. Risk map. Recommendations (which included new delegation authorities).</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-harlowe-light p-4 rounded italic text-sm text-gray-600">
+              <p>Result: Client implemented three new threshold matrices. Response time to urgent repairs dropped from 6 hours to under 2. Key-person dependency risk documented and addressed with board.</p>
             </div>
           </div>
         </div>

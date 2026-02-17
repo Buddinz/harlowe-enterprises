@@ -58,6 +58,7 @@ html {
 
 body {
   background-color: #ffffff;
+  font-weight: 500;
 }
 
 /* Remove default link styling in favor of components */
