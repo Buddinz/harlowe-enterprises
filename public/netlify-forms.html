@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netlify Forms</title>
+  </head>
+  <body>
+    <!-- Static form to enable Netlify Forms detection -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="bot-field" />
+
+      <input type="text" name="name" />
+      <input type="text" name="company" />
+      <input type="text" name="role" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <select name="mode">
+        <option value="Not sure">Not sure yet</option>
+        <option value="Executive Mode">Executive Mode</option>
+        <option value="CFO Mode">CFO Mode</option>
+        <option value="Both">Both modes</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
